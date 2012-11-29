@@ -84,6 +84,8 @@ public class EspetaculosControllerTest {
 		controller.reserva(1234l, 0);
 
 		verifyZeroInteractions(result);
+		
+		
 	}
 
 	@Test(expected=ValidationException.class)
